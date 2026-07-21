@@ -1,16 +1,80 @@
-# React + Vite
+# 3D Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive 3D portfolio website built with React, Three.js, and Vite.
 
-Currently, two official plugins are available:
+## Author
+Jesse Odoh
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Interactive 3D hero section with animated room scene
+- Smooth scrolling with parallax effects
+- Responsive design for all screen sizes
+- Animated counter section
+- Project showcase with glow cards
+- Experience timeline
+- Tech stack display with 3D models
+- Testimonials carousel
+- Contact form with 3D computer model
+- Footer with social links
 
-## React Compiler
+## Tech Stack
+- **Frontend Framework:** React 19
+- **3D Library:** Three.js with React Three Fiber
+- **Animations:** GSAP
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Icons/Assets:** Custom SVGs and 3D GLB models
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dubemjesse/3D_Portfolio.git
+   cd 3D_Portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for Production
+```bash
+npm run build
+```
+The production-ready files will be in the `dist` directory.
+
+## Project Structure
+```
+3D_Portfolio/
+├── public/
+│   ├── images/        # Images and textures
+│   ├── models/        # 3D GLB models
+│   └── vite.svg
+├── src/
+│   ├── components/    # Reusable components
+│   ├── constants/     # Project constants (texts, data)
+│   ├── sections/      # Main page sections
+│   ├── App.jsx        # Root component
+│   ├── index.css      # Global styles
+│   └── main.jsx       # Entry point
+├── .env               # Environment variables (don't commit!)
+├── .gitignore
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## License
+MIT
