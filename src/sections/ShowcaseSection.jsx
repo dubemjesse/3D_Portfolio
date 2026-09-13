@@ -48,37 +48,53 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
+            <a
+              href="https://dubemjesse.github.io/ApplyIq/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="image-wrapper"
+            >
+              <img src="/images/dashboard2.png" alt="ApplyIQ" />
+            </a>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                ApplyIQ - Apply Smarter. Get Hired Faster.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                Your AI-powered job search agent that finds opportunities, tailors resumes, writes cover letters, submits applications, tracks progress, and schedules interviews—all automatically.
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <a
+                href="https://dubemjesse.github.io/Coinflow/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image-wrapper bg-[#FFEFDB]"
+              >
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src="/images/Dashboard5.png"
+                  alt="Coinflow - Track. Analyze. Save"
                 />
-              </div>
-              <h2>The Library Management Platform</h2>
+              </a>
+              <h2>Coinflow - Track. Analyze. Save</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
-              </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <a
+                href="https://dubemjesse.github.io/InsightIq/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image-wrapper bg-[#FFE7EB]"
+              >
+                <img
+                  src="/images/dashboard3.png"
+                  alt="InsightIQ - AI-Powered Business Intelligence"
+                />
+              </a>
+              <h2>InsightIQ - AI-Powered Business Intelligence</h2>
             </div>
           </div>
         </div>
