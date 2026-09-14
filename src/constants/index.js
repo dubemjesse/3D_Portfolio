@@ -227,50 +227,50 @@ const testimonials = [
   },
   {
     name: "David",
-    mentions: "@davidlupee",
+    mentions: "Kenechukwu Microfinance Bank",
     review:
       "Jesse doesn't just write code — he solves problems. From day one he asked the right questions, caught things I hadn't even thought of, and delivered ahead of schedule. I'll definitely be working with him again.",
     imgPath: "/images/david.png",
   },
   {
-    name: "Onyinye",
-    mentions: "@onyille",
+    name: "Onyinye Okoli",
+    mentions: "WEF Global Shaper",
     review:
       "Jesse was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/onyinye.png",
   },
   {
-    name: "Ikechukwu",
-    mentions: "@ysl_ap699",
+    name: "Humberto Chávez",
+    mentions: "JM Financial Limited",
     review:
       "Jesse’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/ikechukwu.png",
+    imgPath: "/images/pictures3.png",
   },
   {
     name: "Simisola",
-    mentions: "@simss.babyy",
+    mentions: "KPMG",
     review:
       "Jesse was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/simisola.png",
   },{
     name: "Oluwafemi",
-    mentions: "@femi_oris",
+    mentions: "Federal Ministry of Finance",
     review:
       "Since launching the site Jesse built for us, our conversion rate has jumped significantly. He's thorough, communicative, and genuinely invested in the success of your project — not just the delivery.",
     imgPath: "/images/femi.png",
   },
   {
-    name: "Omegie",
-    mentions: "@itz_ome",
+    name: "Christiana",
+    mentions: "wocintechchat.com",
     review:
       "Collaborating with Jesse was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    imgPath: "/images/omegie.png",
+    imgPath: "/images/pictures2.png",
   },{
-    name: "Larry",
-    mentions: "@larry_hyper",
+    name: "Shipman Northcutt",
+    mentions: "Status Transportation",
     review:
       "Jesse's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jesse is the ideal partner.",
-    imgPath: "/images/larry.png",
+    imgPath: "/images/picture1.png",
   },
 ];
 
