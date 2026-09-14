@@ -155,7 +155,7 @@ const expCards = [
     imgPath: "/images/datalinks_.png",
     logoPath: "/images/datalinks-logo.png",
     title: "Applications / Software Developer",
-    date: "December 2025 – June 2026",
+    date: "December 2024 – August 2026",
     responsibilities: [
       "Developed and maintained customer-facing and internal banking applications using React, TypeScript, and Tailwind CSS.",
       "Built and supported RESTful APIs with Node.js and Express.",
@@ -169,15 +169,14 @@ const expCards = [
     review: "Jesse was a key contributor at Kenechukwu Microfinance Bank, consistently delivering high-quality web solutions and maintaining robust application performance.",
     imgPath: "/images/kenechukwu_.png",
     logoPath: "/images/kenechukwu-logo.png",
-    title: "Web Developer",
-    date: "August 2023 – December 2025",
+    title: "IT Business Analyst",
+    date: "August 2022 – November 2024",
     responsibilities: [
-      "Supported and enhanced web applications through troubleshooting, maintenance, and feature implementation.",
-      "Developed responsive interfaces using React and Vue.js.",
-      "Implemented automated testing using Jest and Cypress.",
-      "Ensured cross-browser compatibility and optimized application performance.",
-      "Participated in deployments, monitoring, issue resolution, and post-release support.",
-      "Collaborated with users and business teams to improve system usability.",
+      "Analyzed banking applications, business processes, and operational data to identify performance issues, data gaps, and potential risks.",
+      "Used SQL, Node.js, and REST APIs to analyze financial data, validate records, and troubleshoot application and integration issues.",
+      "Built Excel and Power BI reports and dashboards to track KPIs, trends, data quality, and operational performance.",
+      "Supported financial and operational risk assessments by identifying anomalies, control gaps, and process vulnerabilities.",
+      "Used Jira and GitHub to manage requirements, track issues, collaborate on code, and support application testing and deployment.",
     ],
   },
   {
@@ -185,7 +184,7 @@ const expCards = [
     imgPath: "/images/status_.png",
     logoPath: "/images/status-logo.png",
     title: "Data Analyst & Systems Support Specialist",
-    date: "July 2022 – August 2023",
+    date: "July 2020 – July 2022",
     responsibilities: [
       "Performed data cleaning, validation, and analysis using SQL.",
       "Developed Power BI dashboards for KPI tracking and operational reporting.",
@@ -214,17 +213,17 @@ const expLogos = [
 const testimonials = [
   {
     name: "Maryann",
-    mentions: "@verann",
+    mentions: "Veralyn Limited",
     review:
       "I can’t say enough good things about Jesse. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/maryann.png",
   },
   {
-    name: "Emmanuel",
-    mentions: "@emmaboy_",
+    name: "Spencer Russell",
+    mentions: "Big World Limited",
     review:
       "Working with Jesse was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. Highly recommend him for any web dev projects.",
-    imgPath: "/images/emmanuel.png",
+    imgPath: "/images/picture4.png",
   },
   {
     name: "David",
